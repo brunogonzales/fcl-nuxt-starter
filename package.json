@@ -1,0 +1,23 @@
+{
+  "name": "flow-nuxt",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/svg": "0.3.0",
+    "@onflow/fcl": "0.0.77",
+    "@onflow/types": "0.0.5",
+    "@picocss/pico": "1.4.4",
+    "animate.css": "4.1.1",
+    "nuxt": "2.15.8"
+  },
+  "keywords": []
+}
