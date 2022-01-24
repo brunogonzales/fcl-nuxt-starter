@@ -1,6 +1,12 @@
-# codesandbox-nuxt
+# How to use the Flow Client Library (FCL) with Nuxt
 
-> Nuxt starter for CodeSandBox (used for https://template.nuxtjs.org)
+Everything you need to build a SvelteKit project with the Flow Client Library (FCL).
+
+For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart
+
+## [Live demo](https://fcl-nuxt.netlify.app/)
+
+[![image](https://user-images.githubusercontent.com/27052451/146340356-e34f3c47-43bc-4c11-926b-b82b99d561c6.png)](https://fcl-nuxt.netlify.app/)
 
 ## Build Setup
 
