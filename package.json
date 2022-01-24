@@ -1,7 +1,7 @@
 {
-  "name": "flow-nuxt",
+  "name": "fcl-nuxt",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a web app powered by the Flow Client Library (FCL) and Nuxt.",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
