@@ -23,7 +23,7 @@ If you change the name of this file please update it on the plugins property of 
 For more information about Nuxt plugins please refer to [Nuxt documentation](https://nuxtjs.org/docs/directory-structure/plugins/).
 
 
-For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart. If you are fan of Svelte check [this other repo](https://github.com/muttoni/fcl-sveltekit-quickstart).
+For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart. If you are a Svelte fan check [this other repo](https://github.com/muttoni/fcl-sveltekit-quickstart).
 
 
 ## [Live demo](https://fcl-nuxt.netlify.app/)
