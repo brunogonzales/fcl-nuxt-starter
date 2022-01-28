@@ -1,6 +1,6 @@
 # How to use the Flow Client Library (FCL) with Nuxt
 
-Everything you need to build a SvelteKit project with the Flow Client Library (FCL).
+Everything you need to build a Nuxt project with the Flow Client Library (FCL).
 
 For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart
 
