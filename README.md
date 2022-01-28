@@ -1,8 +1,30 @@
 # How to use the Flow Client Library (FCL) with Nuxt
 
-Everything you need to build a Nuxt project with the Flow Client Library (FCL).
+Access the FCL instance from any page or component with `this.$fcl` and inside your templates with just `$fcl`. 
 
-For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart
+For example:
+
+```
+ mounted() {
+    this.$fcl.currentUser.subscribe((user) => (this.user = user));
+  },
+  ````
+
+For adding new smart contract addresses or extending the configuration of FCL go to `plugins/fcl.client.js` . 
+
+If you change the name of this file please update it on the plugins property of `nuxt.config.js` as well.
+
+```
+  plugins: [
+    "~/plugins/fcl.client.js" // run only on client side
+  ]
+  ```
+
+For more information about Nuxt plugins please refer to [Nuxt documentation](https://nuxtjs.org/docs/directory-structure/plugins/).
+
+
+For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart. If you are fan of Svelte check [this other repo](https://github.com/muttoni/fcl-sveltekit-quickstart).
+
 
 ## [Live demo](https://fcl-nuxt.netlify.app/)
 
