@@ -1,5 +1,7 @@
 # How to use the Flow Client Library (FCL) with Nuxt
 
+This quickstart template is adapted for Vue and Nuxt, and is based off of the original quickstarts for [Next.js](https://github.com/muttoni/fcl-nextjs-quickstart) and [SvelteKit](https://github.com/muttoni/fcl-sveltekit-quickstart).
+
 Access the FCL instance from any page or component with `this.$fcl` and inside your templates with just `$fcl`. 
 
 For example:
@@ -21,9 +23,6 @@ If you change the name of this file please update it on the plugins property of 
   ```
 
 For more information about Nuxt plugins please refer to [Nuxt documentation](https://nuxtjs.org/docs/directory-structure/plugins/).
-
-
-For a NextJS starter template, please see this repo: https://github.com/muttoni/fcl-nextjs-quickstart. If you are a Svelte fan check [this other repo](https://github.com/muttoni/fcl-sveltekit-quickstart).
 
 
 ## [Live demo](https://fcl-nuxt.netlify.app/)
