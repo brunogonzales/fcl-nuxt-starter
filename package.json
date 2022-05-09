@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/svg": "0.3.0",
-    "@onflow/fcl": "0.0.77",
+    "@onflow/fcl": "1.0.0-alpha.3",
     "@onflow/types": "0.0.5",
     "@picocss/pico": "1.4.4",
     "animate.css": "4.1.1",
